@@ -139,33 +139,43 @@ class Program
                
             // } while (tahminEdilenSayi!=uretilenSayi && hak<=hakSiniri);; 
             
-
-            do
+            //2. çözüm
+            string mesaj="";
+                do
             {
                 System.Console.Write($"{hak}.Tahmininizi giriniz(1-100): ");
                 tahminEdilenSayi= Convert.ToInt32(Console.ReadLine());
                 if (tahminEdilenSayi> uretilenSayi)
                 {
-                    System.Console.WriteLine("büyük girdiniz.");
+                    mesaj="Büyük girdin";
                 }
-                else if (tahminEdilenSayi> uretilenSayi)
+                else if (tahminEdilenSayi< uretilenSayi)
                 {
-                    System.Console.WriteLine(" küçük girdiniz.");
+                    mesaj="Küçük girdin";
                 }
                 if (tahminEdilenSayi!= uretilenSayi)
                 {
                     hak++;
-                    if (hak<hakSiniri)
-                    {
-                        System.Console.WriteLine("kaybettin!");
-                    }
+                    if(hak<hakSiniri) System.Console.WriteLine(mesaj);
                 }
-                else
-                {
-                    System.Console.WriteLine("Kazandın!");
-                }
+                
             } while (tahminEdilenSayi!= uretilenSayi && hak<=hakSiniri);
-            // eğer program bu satıra gelmişse ya doğru tahminde bulunmuştur ya da hak sona ermiştir.
+             // alttaki çözümün alternatifi
+            mesaj= tahminEdilenSayi== uretilenSayi ?"kazandınız" : "kaybettiniz";
+            System.Console.WriteLine(mesaj);
+
+            /*if (tahminEdilenSayi== uretilenSayi)
+            {
+                System.Console.WriteLine("Kazandınız.");
+            }
+            else
+            {
+                System.Console.WriteLine("Kaybettiniz.");
+            }
+            System.Console.WriteLine("OYUN BİTTİ!");
+            */ // eğer program bu satıra gelmişse ya doğru tahminde bulunmuştur ya da hak sona ermiştir.
+
+            //Kesinlikle bu program başka yollarla çözülebilir.
         } 
 
 
