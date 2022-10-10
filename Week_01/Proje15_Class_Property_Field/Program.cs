@@ -51,9 +51,9 @@
                 set { ogrNo = value; }
             }
 
-            private string? ad;
+            private string? ad;  //Field
 
-            public string Ad
+            public string Ad  //Property
             {
                 get { return ad.ToUpper(); }
                 set { ad = value; }
