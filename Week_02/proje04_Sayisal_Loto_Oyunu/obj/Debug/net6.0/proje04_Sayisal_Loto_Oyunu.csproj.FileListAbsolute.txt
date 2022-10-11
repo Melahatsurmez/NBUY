@@ -1,0 +1,5 @@
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\proje04_Sayisal_Loto_Oyunu.csproj.AssemblyReference.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\proje04_Sayisal_Loto_Oyunu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\proje04_Sayisal_Loto_Oyunu.AssemblyInfoInputs.cache
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\proje04_Sayisal_Loto_Oyunu.AssemblyInfo.cs
+C:\Users\SABAH\Documents\GitHub\NBUY\Week_02\proje04_Sayisal_Loto_Oyunu\obj\Debug\net6.0\proje04_Sayisal_Loto_Oyunu.csproj.CoreCompileInputs.cache

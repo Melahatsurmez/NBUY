@@ -15,13 +15,13 @@
             do
             {
                 Console.Clear();
-                //Oyun.Oyna();
+                OYUN.Oyna();
                 do
                 {
                     //Console.Clear();
                     Console.Write("Yeniden oynamak ister misiniz?[E/H]");
                     tercih = Console.ReadLine().ToUpper();
-                } while (tercih != "H" && tercih != "E");
+                } while (tercih != "H" || tercih != "E");
             } while (tercih != "H");
             Console.ReadLine();
         }
