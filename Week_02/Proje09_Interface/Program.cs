@@ -1,6 +1,12 @@
 ﻿namespace Proje09_Interface
 {
-
+    /*Interfaceler için belirtilmediginde default erişim belirleyici publictir.
+     * Interfaceler protected, private ya da static olarak işaretlenemezler.
+     * Interfaceler içinde çalışabilir kodlar olamaz. yani metotların sadece imzassı bulunur.
+     * Bir interface bir başka interface den yada daha çok interfaceden miras alabilir.
+     * Bir interface classtan miras alamaz.
+     * Eğer bir class bir interfaceden miras alıyorsa miras aldığı ınterfacedeki tüm metotları implemente etmek zorundadır.(Implemente: Miras alınan ınterfacede imzası bulunan tüm metotların içi dolu halleri)
+     */
     interface IPersonal
     {
         public string Departman { get; set; }
@@ -48,7 +54,7 @@
             Console.WriteLine();
         }
     }
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -60,9 +66,33 @@
              */
             // IPersonal personal= new IPersonal(); //Hatalı kullanım
             // her şey abstract olsun istiyorsak interface kullanmalıyız.
-            Yonetici yonetici1= new Yonetici();
-            Yonetici yonetici2 = new Yonetici("Alex de Souza", "Rio de Jenario", "5000","Futbol");
+            //Yonetici yonetici1= new Yonetici();
+            //Yonetici yonetici2 = new Yonetici("Alex de Souza", "Rio de Jenario", "5000","Futbol");
+
+            Product product1 = new Product()
+            {
+                Id = 1,
+                Name = "IPhone 13",
+                Price = 5900,
+                Properties = "8 gb ram",
+                Ratio = 0.5m,
+                CreatedDate = DateTime.Now,
+            };
+            Console.WriteLine($"Product Name: {product1.Name}(Büyük Harf: {product1.NameToUpper(product1.Name)}) Properties: {product1.Properties}");
             
+            Category category1 = new Category();
+            {
+                Id = 1,
+                Name="Telefon",
+                CreatedDate= DateTime.Now,
+                Description="Bu kategori telefonlar içindir", 
+               
+                
+
+            };
+
+            Console.ReadLine(  );
+
         }
     }
 }
