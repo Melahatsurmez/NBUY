@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Images</title>
+    <style>
+        p{
+            border: 2px solid red;
+        }
+        img.resim{
+            width: 300px;
+            float: left;
+            margin-right: 10px;
+        }
+        .clearfix::after{
+            content: "";
+            display: block;
+            clear: both;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sint aliquam autem magnam perferendis temporibus sequi aliquid quasi, reiciendis laborum.</p>
+    <p class="clearfix">
+        <img class="resim" src="/00_Images/features.jpeg" alt="">
+        <span>
+            Resim buradan başlıyor. Omnis vitae id accusamus a excepturi adipisci blanditiis exercitationem rerum perferendis tghcvbnjcgfvhhgcgfcchvjkempora xsdcfvgbhn fghj?
+        </span>
+        <span>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis vitae id accusamus a excepturi adipisci blanditiis exercitationem rerum perferendis tempora?
+        </span>
+            <span>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis vitae id accusamus a excepturi adipisci blanditiis exercitationem rerum perferendis tempora?
+            </span>
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sint aliquam autem magnam perferendis temporibus sequi aliquid quasi, reiciendis laborum.</p>
+    <p class="clearfix">
+        <img src="/00_Images/features.jpeg" alt="" width="50px">
+        <span>
+            Resim buradan başlıyor. Omnis vitae id accusamus a excepturi adipisci blanditiis exercitationem rerum perferendis tempora?
+        </span>
+        <span>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis vitae id accusamus a excepturi adipisci blanditiis exercitationem rerum perferendis tempora?
+        </span>
+            <span>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis vitae id accusamus a excepturi adipisci blanditiis exercitationem rerum perferendis tempora?
+            </span>
+    </p>
+</body>
+</html>

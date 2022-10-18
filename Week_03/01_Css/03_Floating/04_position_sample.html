@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .modal{
+            width: 400px;
+            height: 250px;
+            background-color: bisque;
+            border: 1px solid navy;
+            border-radius: 5px;
+            position: relative;
+            top: 150px;
+            left: calc((100% - 400px)/2);
+            padding: 5px;
+        }
+        .x-button{
+            top: 5px;
+            right: 5px;
+            position: absolute;
+            background-color: red;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: white;
+        }
+        .message{
+            position: relative;
+            top: 95px;
+            left: 65px;
+        }
+        .close-button{
+            position: absolute;
+            bottom: 10px;
+            left: 185px;
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 8px 10px;
+            border-radius: 5px;
+        }
+        .dikkat{
+            width: 60px;
+            height: 25px;
+            position:absolute;
+            top: 5px;
+            left:5px;
+            background-color: rgb(215, 226, 250);
+            border-radius: 5px;
+            color: black;
+            border: 1px solid black;
+        }
+        .dikkat-y{
+            margin-top: auto;
+            color: red;
+            position: relative;
+            left: 3px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="modal">
+        <button class="x-button">X</button>
+        <p class="message">Kapatmak için aşağıdaki butona tıklayınız.</p>
+        <button class="close-button">Close</button>
+        <div class="dikkat">
+        <p class="dikkat-y">Dikkat!</p>
+        </div>
+    </div>
+    
+</body>
+</html>
