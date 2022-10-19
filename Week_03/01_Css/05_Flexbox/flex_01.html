@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+        .header, .footer{
+            background-color: #002B25;
+            padding-left: 20px;
+            height: 120px ;
+            display: flex;
+            align-items: center;   
+        }
+        .footer{
+            height: 60px;
+            color: #fff;
+
+        }
+        .header h1{
+           color: #FEC260; 
+           font-size: 60px;
+        }
+        .content{
+            flex-direction: row-reverse ;
+            height:calc(100vh - 210px);
+            display: flex;
+            margin-top: 10px;
+        
+        }
+        .content-left{
+            width: 25%;
+            
+        }
+        .content-left ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .content-left ul li{
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            background-color: #256D85;
+            color: #fff;
+        }
+        .content-left ul li:hover{
+            cursor: pointer;
+            background-color: #2B4865;
+        }
+        .content-right{
+            width: 75%;
+            padding-right: 15px;
+        }
+        .content-right h1{
+            color: #002B25;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Frontend Dersleri</h1>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="content-right">
+                <h1>Uygulama Gelişirici Eğitimi</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, quasi numquam? Quis esse porro mollitia?</p>
+            </div>
+            
+        </div>
+        <div class="footer">
+                Bu sayfa Bau Wissen Akademie ögrencileri tarafından tasarlanmıştır
+        </div>
+    </div>
+    
+</body>
+</html>
