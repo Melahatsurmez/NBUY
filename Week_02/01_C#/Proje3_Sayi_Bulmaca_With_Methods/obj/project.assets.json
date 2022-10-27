@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_02\\Proje3_Sayi_Bulmaca_With_Methods\\Proje3_Sayi_Bulmaca_With_Methods.csproj",
+      "projectUniqueName": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_02\\01_C#\\Proje3_Sayi_Bulmaca_With_Methods\\Proje3_Sayi_Bulmaca_With_Methods.csproj",
       "projectName": "Proje3_Sayi_Bulmaca_With_Methods",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_02\\Proje3_Sayi_Bulmaca_With_Methods\\Proje3_Sayi_Bulmaca_With_Methods.csproj",
+      "projectPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_02\\01_C#\\Proje3_Sayi_Bulmaca_With_Methods\\Proje3_Sayi_Bulmaca_With_Methods.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_02\\Proje3_Sayi_Bulmaca_With_Methods\\obj\\",
+      "outputPath": "c:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_02\\01_C#\\Proje3_Sayi_Bulmaca_With_Methods\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
