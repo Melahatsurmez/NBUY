@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SZMWk2Omn7ihMCO/NGjDiDx25OJlDxGpbynvuUgz90LtwgSvPBYG0MoqzXQHlGK950WM7k+FMLm4RCSBNCb/xQ==",
+  "dgSpecHash": "XrvW12CgXAApnO/NzR+UCeKl4KbfKRK014qAHq2uNEVOIZ+Li8f8BFEd8fy9LiodhZrr6gFcMwRG1fIzMBkH+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_07\\Proje02_DatabaseFirst\\Proje02_DatabaseFirst.csproj",
   "expectedPackageFiles": [
@@ -45,8 +45,7 @@
     "C:\\Users\\SABAH\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\SABAH\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\SABAH\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\SABAH\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.3\\microsoft.netcore.app.host.win-x64.6.0.3.nupkg.sha512"
+    "C:\\Users\\SABAH\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
