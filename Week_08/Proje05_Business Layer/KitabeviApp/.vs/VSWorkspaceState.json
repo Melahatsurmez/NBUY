@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\KitabeviApp.Business",
+    "\\KitabeviApp.Business\\Concrete",
+    "\\KitabeviApp.Data",
+    "\\KitabeviApp.Data\\EfCore",
+    "\\KitabeviApp.Data\\EfCore\\Concrete"
+  ],
+  "SelectedNode": "\\KitabeviApp.Business\\Concrete\\KategoriManager.cs",
+  "PreviewInSolutionExplorer": false
+}

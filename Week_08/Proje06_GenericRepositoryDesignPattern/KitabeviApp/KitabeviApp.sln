@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitabeviApp.Business", "KitabeviApp.Business\KitabeviApp.Business.csproj", "{9E50DF6D-D8DA-48E2-9CD3-10B46C3454B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitabeviApp.Data", "KitabeviApp.Data\KitabeviApp.Data.csproj", "{DC917062-E37F-4BBF-9453-21897C33D64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitabeviApp.Entity", "KitabeviApp.Entity\KitabeviApp.Entity.csproj", "{E003124B-EA09-4850-AD3D-20B63B029D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KitabeviApp.Web", "KitabeviApp.Web\KitabeviApp.Web.csproj", "{62F8563E-F421-4B14-9916-27EE78100455}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E50DF6D-D8DA-48E2-9CD3-10B46C3454B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E50DF6D-D8DA-48E2-9CD3-10B46C3454B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E50DF6D-D8DA-48E2-9CD3-10B46C3454B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E50DF6D-D8DA-48E2-9CD3-10B46C3454B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC917062-E37F-4BBF-9453-21897C33D64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC917062-E37F-4BBF-9453-21897C33D64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC917062-E37F-4BBF-9453-21897C33D64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC917062-E37F-4BBF-9453-21897C33D64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E003124B-EA09-4850-AD3D-20B63B029D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E003124B-EA09-4850-AD3D-20B63B029D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E003124B-EA09-4850-AD3D-20B63B029D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E003124B-EA09-4850-AD3D-20B63B029D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F8563E-F421-4B14-9916-27EE78100455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F8563E-F421-4B14-9916-27EE78100455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F8563E-F421-4B14-9916-27EE78100455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F8563E-F421-4B14-9916-27EE78100455}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
