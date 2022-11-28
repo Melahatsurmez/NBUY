@@ -18,7 +18,7 @@ namespace KitabeviApp.Business.Concrete
 
         public Kategori KategoriGetir(int id)
         {
-            var kategoriRepository=new EfCoreKategoriRepository();
+            var kategoriRepository = new EfCoreKategoriRepository();
             return kategoriRepository.Getir(id);
         }
 

@@ -7,8 +7,8 @@ using KitabeviApp.Entity;
 
 namespace KitabeviApp.Data.EfCore.Concrete
 {
-    public class EfCoreYazarRepository: EfCoreGenericRepository<Yazar>,IYazarRepository
+    public class EfCoreYazarRepository : EfCoreGenericRepository<Yazar>, IYazarRepository
     {
-       
+        
     }
 }

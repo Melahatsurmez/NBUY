@@ -1,5 +1,4 @@
-﻿using KitabeviApp.Entity;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +10,8 @@ namespace KitabeviApp.Data.EfCore.Abstract
     {
         T Getir(int id);
         List<T> Listele();
-        void Ekle(T varlık);
-        void Guncelle(T varlık);
-        void Sil(T varlık);
-        
+        void Ekle(T varlik);
+        void Guncelle(T varlik);
+        void Sil(T varlik);
     }
 }

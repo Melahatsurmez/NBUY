@@ -45,7 +45,7 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult KategoriEkle(Kategori kategori)
     {
-        var kategoriManager=new KategoriManager();  
+        var kategoriManager = new KategoriManager();
         kategoriManager.KategoriEkle(kategori);
         return RedirectToAction("KategoriListesi");
     }
@@ -206,6 +206,7 @@ public class HomeController : Controller
     //        .Where(k => k.KategoriId == id)
     //        .Include(k => k.Kategori)
     //        .Include(k => k.Yazar)
+               
     //        .ToList();
 
     //    List<KitapListViewModel> kitapListViewModels = kitaplar
