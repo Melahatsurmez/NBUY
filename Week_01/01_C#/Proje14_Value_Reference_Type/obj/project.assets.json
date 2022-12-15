@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje14_Value_Reference_Type\\Proje14_Value_Reference_Type.csproj",
+      "projectUniqueName": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\01_C#\\Proje14_Value_Reference_Type\\Proje14_Value_Reference_Type.csproj",
       "projectName": "Proje14_Value_Reference_Type",
-      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje14_Value_Reference_Type\\Proje14_Value_Reference_Type.csproj",
+      "projectPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\01_C#\\Proje14_Value_Reference_Type\\Proje14_Value_Reference_Type.csproj",
       "packagesPath": "C:\\Users\\SABAH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\Proje14_Value_Reference_Type\\obj\\",
+      "outputPath": "C:\\Users\\SABAH\\Documents\\GitHub\\NBUY\\Week_01\\01_C#\\Proje14_Value_Reference_Type\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SABAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
