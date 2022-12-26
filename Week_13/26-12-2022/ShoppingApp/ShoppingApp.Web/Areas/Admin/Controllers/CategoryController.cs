@@ -4,6 +4,7 @@ using ShoppingApp.Business.Abstract;
 using ShoppingApp.Core;
 using ShoppingApp.Entity.Concrete;
 using ShoppingApp.Web.Areas.Admin.Models.Dtos;
+using ShoppingApp.Web.Models.Dtos;
 
 namespace ShoppingApp.Web.Areas.Admin.Controllers
 {
@@ -106,5 +107,6 @@ namespace ShoppingApp.Web.Areas.Admin.Controllers
             _categoryService.Delete(category);
             return RedirectToAction("Index");
         }
+        
     }
 }

@@ -34,4 +34,21 @@ public class HomeController : Controller
         }
         return View(productDtos);
     }
+    public async Task<IActionResult> Search(string q)
+    {
+        List<Product> searchResults = await _productManager.GetSearchResultsAsync(q);
+        List<ProductDto> productDtos = new List<ProductDto>();
+        foreach (var product in searchResults)
+        {
+            productDtos.Add(new ProductDto
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Price = product.Price,
+                ImageUrl = product.ImageUrl,
+                Url = product.Url
+            });
+        }
+        return View(productDtos);
+    }
 }

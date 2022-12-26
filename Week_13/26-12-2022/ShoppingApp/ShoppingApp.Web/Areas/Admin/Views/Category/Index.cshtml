@@ -1,11 +1,17 @@
 ﻿@model CategoryListDto
 <hr />
-<a 
-    class="btn btn-outline-primary"
+<div class="row">
+    <div class="col">
+    <a class="btn btn-outline-primary"
     asp-area="Admin"
     asp-controller="Category"
     asp-action="Create"
 >Yeni Kategori Ekle</a>
+    </div>
+    <div class="col">
+        @await Html.PartialAsync("_CategorySearch")
+    </div>
+</div>
 <hr />
 <table class="table table-responsive table-bordered">
     <thead>

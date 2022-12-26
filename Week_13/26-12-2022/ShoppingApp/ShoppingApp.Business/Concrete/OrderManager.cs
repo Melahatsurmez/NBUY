@@ -24,7 +24,7 @@ namespace ShoppingApp.Business.Concrete
             await _unitOfWork.SaveAsync();
         }
 
-        public async Task<List<Order>> GetOrders(string userId)
+        public async Task<List<Order>> GetOrders(string userId=null)
         {
             return await _unitOfWork.Orders.GetOrders(userId);
         }

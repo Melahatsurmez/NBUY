@@ -23,5 +23,6 @@ namespace ShoppingApp.Business.Abstract
         Task<Product> GetProductWithCategories(int id);
         Task UpdateIsHomeAsync(Product product);
         Task UpdateIsApprovedAsync(Product product);
+        Task<List<Product>> GetSearchResultsAsync(string searchString,bool isApproved=true);
     }
 }

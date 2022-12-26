@@ -10,6 +10,7 @@
 <div class="mt-4 row">
     <div class="col-3">
         @await Component.InvokeAsync("Categories")
+        @await Html.PartialAsync("_Search")
     </div>
     <div class="col-9">
         <div class="row">

@@ -9,6 +9,6 @@ namespace ShoppingApp.Data.Abstract
 {
     public interface IOrderRepository : IRepository<Order>
     {
-        Task<List<Order>> GetOrders(string userId);
+        Task<List<Order>> GetOrders(string userId = null);
     }
 }

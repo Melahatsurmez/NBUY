@@ -10,6 +10,6 @@ namespace ShoppingApp.Business.Abstract
     public interface IOrderService
     {
         Task CreateAsync(Order order);
-        Task<List<Order>> GetOrders(string userId);
+        Task<List<Order>> GetOrders(string userId=null);
     }
 }

@@ -52,7 +52,7 @@ namespace ShoppingApp.Business.Concrete
         {
             throw new NotImplementedException();
         }
-        #endregion
 
+        #endregion
     }
 }

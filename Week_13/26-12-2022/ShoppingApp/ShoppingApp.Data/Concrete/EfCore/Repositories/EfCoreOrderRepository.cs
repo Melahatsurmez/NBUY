@@ -20,7 +20,7 @@ namespace ShoppingApp.Data.Concrete.EfCore.Repositories
         {
             get { return _context as ShopAppContext; }
         }
-        public async Task<List<Order>> GetOrders(string userId)
+        public async Task<List<Order>> GetOrders(string userId = null)
         {
             #region UserIdNullKontrolüYapılmadan
             //var orders = ShopAppContext.Orders

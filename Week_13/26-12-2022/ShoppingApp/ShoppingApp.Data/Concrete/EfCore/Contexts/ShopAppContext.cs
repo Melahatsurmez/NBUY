@@ -31,6 +31,9 @@ namespace ShoppingApp.Data.Concrete.EfCore.Contexts
             modelBuilder.ApplyConfiguration(new CategoryConfig());
             modelBuilder.ApplyConfiguration(new ProductConfig());
             modelBuilder.ApplyConfiguration(new ProductCategoryConfig());
+            modelBuilder.Entity<OrderItem>()
+                .Property("Price")
+                .HasColumnType("money");
             base.OnModelCreating(modelBuilder);
         }
     }

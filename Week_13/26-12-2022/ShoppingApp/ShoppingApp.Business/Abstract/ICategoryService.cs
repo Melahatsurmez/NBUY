@@ -15,5 +15,7 @@ namespace ShoppingApp.Business.Abstract
         void Update(Category category);
         void Delete(Category category);
         Category GetByIdWithProducts();
+
+
     }
 }
